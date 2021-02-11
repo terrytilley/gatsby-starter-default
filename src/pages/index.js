@@ -8,6 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <pre>NODE_ENV: {process.env.NODE_ENV}</pre>
+    <pre>GATSBY_SITE_ID: {process.env.GATSBY_SITE_ID}</pre>
+    <br />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
